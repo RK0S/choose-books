@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "baseUrl": ".",
+        "noImplicitAny": true,
+        "module": "ESNext",
+        "target": "ESNext",
+        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "isolatedModules": true,
+        "allowUnreachableCode": false,
+        "noFallthroughCasesInSwitch": true,
+        "allowUnusedLabels": false, 
+        "skipLibCheck": true, 
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    },
+    "exclude": ["node_modules"]
+}

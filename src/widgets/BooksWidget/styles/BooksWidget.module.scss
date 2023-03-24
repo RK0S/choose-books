@@ -1,0 +1,50 @@
+.BooksWidget {
+    align-items: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+    &__header {
+        margin-bottom: 35px;
+    }
+
+    &__input {
+        margin-bottom: 35px;
+    }
+
+    &__filters {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    &__hr {
+        margin-bottom: 35px;
+        background: #020202;
+        height: 1px;
+        width: 600px;
+    }
+
+    &__title {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .BooksWidget__filters {
+        width: 100%;
+    }
+
+    .BooksWidget__hr {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .BooksWidget__filters {
+        flex-direction: column;
+        height: 80px;
+    }
+}

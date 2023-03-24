@@ -1,0 +1,44 @@
+.BookCard {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #020202;
+    border-radius: 15px;
+    padding: 20px;
+    width: 225px;
+    min-height: 325px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+
+    &__img {
+        width: 120px;
+        height: 150px;
+        padding-bottom: 15px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    &__category {
+        font-size: 13px;
+        line-height: 18px;
+        color: #919191;
+        margin-bottom: 12px;
+    }
+
+    &__title {
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    &__authors {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+.BookCard:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
